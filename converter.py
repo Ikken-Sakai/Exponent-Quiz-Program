@@ -30,3 +30,6 @@ while correct == True:
 		correct = True
 	else:
 		collect = False
+
+#"What is 2 ** 10?
+#answer = 1k
