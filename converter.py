@@ -22,14 +22,15 @@ while correct == True:
 		answer = str(answer) + ""
 	else:
 		answer = str(answer) + 'T'
-	print(answer)
 
 	a = input()
 	if a != answer:
 		print("Wrong, try again")
 		correct = True
 	else:
-		collect = False
+		correct = False
+
+print("Your answer is correct. Well done!!")
 
 #"What is 2 ** 10?
 #answer = 1k
